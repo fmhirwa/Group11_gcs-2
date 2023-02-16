@@ -1,0 +1,5 @@
+#!/bin/bash
+# creation of text file, and that reads each line of the text file
+while read line; do
+	mkdir "$line"
+done < folder_names
